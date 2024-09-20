@@ -1,0 +1,108 @@
+percobaan 1:kode dalam bahasa pemrograman Kotlin dimaksudkan 
+untuk dipahami oleh manusia, sehingga orang dapat lebih mudah membaca, menulis, 
+dan berkolaborasi pada program Kotlin contoh:
+fun main() {
+    println("Hello, world!")
+} 
+percobaan 2: Untuk mengubah pesan yang ditampilkan dalam output
+ubah println()pemanggilan fungsi pada baris kedua program. 
+Ganti worlddengan Androiddalam println()fungsi. 
+Pastikan "Hello, Android!"masih dalam tanda kutip dan dalam tanda kurung ,contoh:
+fun main() {
+    println("Hello, Android!")
+}
+percobaan 3: meletakkan baris instruksi sebanyak yang perlukan di dalam suatu fungsi 
+untuk menyelesaikan suatu tugas contoh:
+fun main() {
+    println("Hello, Android!")
+    println("Hello, Android!")
+}
+percobaan 3:memperbaiki kesalahan dimana Jika kode tidak dapat dikompilasi dengan sukses 
+berarti ada kesalahan. contoh : 
+fun main() {
+    println("Today is sunny!)
+}
+solusi : tambah tanya kutip setelah tanda seru 
+fun main() {
+    println("Today is sunny!")
+}
+latihan : 
+1.Dapatkah Anda membaca kode dalam program ini 
+dan menebak apa outputnya (tanpa menjalankannya di Kotlin Playground)?
+fun main() {
+    println("1")
+    println("2")
+    println("3")
+} 
+output : 
+1
+2
+3
+2.Gunakan Kotlin Playground untuk membuat program yang menampilkan pesan berikut:
+I'm
+learning
+Kotlin!
+solusi:
+fun main() {
+    println("I'm")
+    println("learning")
+    println("Kotlin!")
+} 
+3.Salin dan tempel program ini ke Kotlin Playground.
+fun main() {
+    println("Tuesday")
+    println("Thursday")
+    println("Wednesday")
+    println("Friday")
+    println("Monday")
+}
+output:
+Tuesday
+Thursday
+Wednesday
+Friday
+Monday
+4.Perbaiki kesalahan dalam program ini, sehingga menghasilkan keluaran yang diinginkan.
+fun main() {
+    println("Tomorrow is rainy")
+solusi :
+fun main() {
+    println("Tomorrow is rainy")
+}
+5.Perbaiki kesalahan dalam program ini, sehingga menghasilkan keluaran yang diinginkan.
+fun main() {
+    printLine("There is a chance of snow")
+}
+solusi:
+fun main() {
+    println("There is a chance of snow")
+}
+6.Perbaiki kesalahan dalam program ini, sehingga menghasilkan keluaran yang diinginkan.
+fun main() {
+    println("Cloudy") println("Partly Cloudy") println("Windy")
+}
+solusi :
+fun main() {
+    println("Cloudy")
+    println("Partly Cloudy")
+    println("Windy")
+}
+output : 
+Cloudy
+Partly Cloudy
+Windy
+7.Perbaiki kesalahan dalam program ini, sehingga menghasilkan keluaran yang diinginkan.
+fun main() (
+    println("How's the weather today?")
+)
+solusi :
+fun main() {
+    println("How's the weather today?")
+}
+ringkasan:
+Program Kotlin memerlukan mainfungsi sebagai titik masuk program.
+Untuk mendefinisikan suatu fungsi dalam Kotlin, gunakan funkata kunci, diikuti dengan nama fungsi, input apa pun yang diapit tanda kurung, diikuti dengan isi fungsi yang diapit kurung kurawal.
+Nama fungsi harus mengikuti konvensi camel case dan dimulai dengan huruf kecil.
+Gunakan println()pemanggilan fungsi untuk mencetak beberapa teks ke output.
+Lihat panduan gaya Kotlin untuk format dan konvensi kode yang harus diikuti saat membuat kode dalam Kotlin.
+Pemecahan masalah adalah proses menyelesaikan kesalahan dalam kode.
