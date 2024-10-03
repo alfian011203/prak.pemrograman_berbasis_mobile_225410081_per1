@@ -77,10 +77,12 @@ mengalami eror pada program ini
         fun BirthdayCardPreview() {
             HappyBirthdayTheme {
                 GreetingImage(
-                    message = "Happy Birthday Sam!",
+                    message = "Happy Birthday alfian!",
                     from = "From Emma"
                 )
             }
         }
 yaitu : 
-
+Panggil fungsi GreetingText() di dalam fungsi BirthdayCardPreview().
+Teruskan argumen String ke fungsi GreetingText() yang merupakan ucapan ulang tahun . 
+menambahkan nama jika menginginkannya, seperti "Happy Birthday alfian!"
